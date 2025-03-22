@@ -55,23 +55,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Programming Portfolio</title>
+    <title>HW1-Q2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            padding: 2em;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #007BFF;
+            color: white;
+            padding: 1em;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        pre {
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            font-family: monospace;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>My C Programming Projects</h1>
+        <h1>HW1-Q2</h1>
     </header>
 
     <main>
-        <h2>Homeworks question by question</h2>
-        <ul>
-            <li><a href="HW1-Q2.html" target="_blank">HW1-Q2</a></li>
-            <!-- Diğer ödevlerinizi buraya ekleyebilirsiniz -->
-        </ul>
+        <h2>Program Code:</h2>
+        <pre><code>
+#include <stdio.h>
+int main(void)
+{
+   int integer1;
+   int integer2;
+   int x;      
+
+   printf("Enter first integer\n"); 
+   scanf("%d", &integer1);        
+
+   printf("Enter second integer\n"); 
+   scanf("%d", &integer2);          
+
+   x = integer1 + integer2; 
+
+   printf("Sum is %d\n", x); 
+   return 0; 
+}
+        </code></pre>
+
+        <h2>Program Output:</h2>
+        <pre><code>
+        </code></pre>
     </main>
 
     <footer>
-        <p>&copy; Mete KARA</p>
+        <p>&copy; 2025 My Programming Portfolio</p>
     </footer>
 </body>
 </html>
